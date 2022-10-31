@@ -16,30 +16,13 @@ from _pytest.capture import CaptureFixture
 
 import piplicenses
 from piplicenses import (
-    DEFAULT_OUTPUT_FIELDS,
-    LICENSE_UNKNOWN,
-    RULE_ALL,
-    RULE_FRAME,
-    RULE_HEADER,
-    RULE_NONE,
-    SYSTEM_PACKAGES,
-    CompatibleArgumentParser,
-    FromArg,
-    __pkgname__,
-    create_licenses_table,
-    create_output_string,
-    create_parser,
-    create_warn_string,
-    enum_key_to_value,
-    factory_styled_table_with_args,
-    find_license_from_classifier,
-    get_output_fields,
-    get_sortby,
-    output_colored,
-    save_if_needs,
-    select_license_by_source,
-    value_to_enum_key,
-)
+    DEFAULT_OUTPUT_FIELDS, LICENSE_UNKNOWN, RULE_ALL, RULE_FRAME,
+    RULE_HEADER, RULE_NONE, SYSTEM_PACKAGES, CompatibleArgumentParser,
+    FromArg, __pkgname__, create_licenses_table, create_output_string,
+    create_parser, create_warn_string, enum_key_to_value,
+    factory_styled_table_with_args, find_license_from_classifier,
+    get_output_fields, get_sortby, output_colored, save_if_needs,
+    select_license_by_source, value_to_enum_key,)
 
 UNICODE_APPENDIX = ""
 with open("tests/fixtures/unicode_characters.txt", encoding="utf-8") as f:
